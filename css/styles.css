@@ -1,0 +1,184 @@
+body {
+    font-family: "Montserrat";
+}
+#title {
+   background-image: url('../images/wallpaper.jpg');
+   background-attachment: fixed; 
+}
+h1{
+    font-family: "Montserrat-Black", sans-serif;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.mario{
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4rem;
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    width: 66%;
+    /*transform: rotate(20deg); - Bu rasm yoki boshqa tegni qanchadur gradusga burish uchun ishlatiladi. Qiymat esa () ga kiritiladi*/
+}
+.mario:hover{
+    border-width: 5px;
+}
+
+.navbar{
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.row{
+    padding-top: 4rem;
+}
+.button{
+    margin: 5% 3% 5% 7%;
+}
+
+/*Introduction*/
+
+.int-img-1{
+    clear: right;
+    padding: 75px 0 70px 70px;
+    width: 80%;
+}
+
+.int-img-2{
+    clear: right;
+    padding: 0 0 70px 70px;
+    width: 80%;
+}
+
+.int-img-3{
+    clear: right;
+    padding: 0 0 70px 70px;
+    width: 80%;
+}
+
+.text{
+    padding: 0 0 30px 30px;
+}
+p{
+    line-height: 2rem;
+}
+hr{
+    background-color: inherit;
+    border-style: none;
+    border-top-style: dotted;
+    border-color:  lightgrey;
+    border-width: 6px;
+    width: 8%;
+    margin: 40px auto;
+}
+
+/*Testimonials Section*/
+
+#testimonials{
+    background-color: mediumslateblue;
+    text-align: center;
+}
+
+.h2{
+    font-family: "Montserrat";
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: white;
+    
+}
+
+.alfondo{
+    padding: 10px;
+    margin: 10px auto;
+    width: 66%;
+    border: 0 solid white;
+}
+.oncycle{
+    padding: 10px;
+    margin: 12px auto;
+    width: 66%;
+    border: 0 solid white;
+}
+.black{
+    padding: 10px;
+    margin: 15px auto;
+    width: 70%;
+    border: 0 solid white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.img:hover{
+    border-radius: 20px;
+    border-width: 5px;
+    background-color: slateblue;
+}
+
+#press{
+    text-align: center;
+    background-color: slateblue;
+}
+
+.payme{
+    width: 20%;
+    margin: 60px 80px 0 80px;
+    position: relative;
+    bottom: 35px;
+    border: 0 solid white;
+}
+
+.payme:hover{
+    background-color: mediumslateblue;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 18px;
+}
+
+.click{
+    width: 20%;
+    margin: 60px 0 80px 80px;
+    border: 0 solid white;
+    padding: 5px;
+}
+
+.click:hover{
+    background-color: mediumslateblue;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.img:hover{
+    border-color: white;
+    border-width: 5px;
+}
+
+h3{
+    color: white;
+    margin-bottom: 30px;
+}
+
